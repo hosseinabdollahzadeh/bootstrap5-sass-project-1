@@ -1,1 +1,11 @@
+// Custom variables
+$primary: #f83600;
+$secondary: #fe8c00;
+// Import bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Import app
+@import "./components/mixins";
+@import "./components/buttons";
+@import "./fonts";
+@import "./navbar";
